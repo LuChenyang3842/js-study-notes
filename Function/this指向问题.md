@@ -1,7 +1,7 @@
 # This 指向问题
 
 
-##一些例
+## 一些例子
 
 ```
 luke = {
@@ -32,7 +32,7 @@ getAge() // NaN
 ```
 **总结: 只有 object.fucntion() 才能使得object内部函数的this指向object！！**
 
-##解决方法：
+## 解决方法：
 
 1. 使用 var that = this
 ```
